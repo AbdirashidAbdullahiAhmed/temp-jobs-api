@@ -67,3 +67,12 @@ Swagger UI
       required: true
       description: the job id
 ```
+
+The commands for linking your local Git repository to a GitHub repository and pushing your code.
+
+git init # Initialise Git in the project folder
+git add . # Stage all files for commit
+git commit -m "Initial commit" # Commit your changes
+git remote add origin https://github.com/AbdirashidAbdullahiAhmed/temp-jobs-api.git # Link the repository
+git branch -M main # Rename to 'main' branch
+git push -u origin main # Push code to GitHub
